@@ -1,13 +1,13 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ ✅ ] Two External Links
+[ ✅ ] Table
+[ ✅ ] Three CSS Rules
+[ ✅ ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[ ✅ ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
@@ -19,24 +19,35 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    table, th, tr, td{
+      border: 1px solid;
+    }
+    body {background-color: rgb(246, 198, 93)}
+    #title{color: white; background-color: rgb(219, 174, 74)}
+    h2 {color: rgb(242, 102, 30)}
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1 id="title">Brandon's Recipe Book</h1>
 
   <h2>Contents:</h2>
 
   <ol>
-    <li><a href="?">Recipe #1</a></li>
+    <li><a href="#recipe-1">Recipe #1</a></li>
+    <li><a href="#recipe-2">Recipe #2</a></li>
   </ol>
+  
+  <h2 id="recipe-1">Recipe #1</h2>
 
-  <h2 id="?">Recipe #1</h2>
-
+  <h3>Grilled Chicken Kabobs</h3>
+  
+  <img src="https://www.gimmesomeoven.com/wp-content/uploads/2019/05/The-Juiciest-Chicken-Kabobs-Recipe-1-2.jpg" width="200" alt="Image of Grilled Chicken Kabobs.">
+  
   <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
+    <li>Time: 35 minutes</li>
+    <li>Serves: 4-6 servings</li>
   </ul>
 
   <table>
@@ -46,15 +57,230 @@ Select ONE Additional Feature to Add
         <th>Quantity</th>
       </tr>
     </thead>
+    
     <tbody>
+      <tr>
+      <td>
+        Boneless skinless chicken breasts (or boneless thighs):
+        </td>
+        <td>
+         x4
+        </td>
+       </tr>
+      
+      <tr>
+      <td>
+        Oil
+        </td>
+        <td>
+          x1 tbsp
+        </td>
+      </tr>
+      
+      <tr>
+      <td>
+        Kosher Salt
+        </td>
+        <td>
+        x1 tsp
+        </td>
+      </tr>
+      
+      <tr>
+      <td>
+      Any Seasoning (Used is an all-purpose blend of smoked paprika, garlic powder, salt and black pepper.)
+        </td> 
+      <td>
+        x1/2 tbsp for each.
+        </td>
+      </tr>
+      
+      <tr>
+      <td>
+        Skewer (Metal or Wooden)
+        </td>
+        <td>
+        x1
+        </td>
+      </tr>
+      
+       <tr>
+      <td>
+        Grill
+        </td>
+        <td>
+        x1
+        </td>
+      </tr>
+      
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
+  <p><strong>Step 1: Brine the chicken</strong> <br>
+Soak the (whole) chicken breasts in a mixture of lukewarm water and salt for at least 15 minutes. Then rinse the chicken off with some cold water, pat the breasts dry with paper towels, and cut the chicken into bite-sized pieces. 
   </p>
+  
+<p><strong>Step 2: Season the chicken</strong> <br>
+  Drizzle the chicken bites with olive oil, sprinkle with your desired seasonings, and toss well until the chicken is evenly coated.</p>
+  
+  <p>
+    <strong>Step 3: Prep the grill and skewers</strong> <br>
+  Heat your grill to medium-high heat. Thread the chicken evenly onto your skewers.
+  </p>
+  
+  <p>
+    <strong>Step 4: Grill</strong> <br>
+    Then grill, cook the chicken for about 10-14 minutes, turning once halfway through, until the chicken is golden brown and cooked through. (Definitely avoid undercooking the chicken, but try to avoid overcooking as well so that it doesn’t dry out!)
+  </p>
+  
+  <p>
+    <strong>Step 5: Serve warm</strong> <br>
+    Transfer the kabobs to a clean plate, and loosely tent with aluminum foil for about 5 minutes. Then serve while they’re still nice and warm and juicy!
+  </p>
+  
+  <p><em>Source: <a target="_blank" href="https://www.gimmesomeoven.com/grilled-chicken-kabobs">https://www.gimmesomeoven.com/grilled-chicken-kabobs</a></em></p>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <h2 id="recipe-2">Recipe #2</h2>
+ <h3>Chicken Quesadillas</h3>
+  
+  <img src="https://www.allrecipes.com/thmb/UdfDPTTJFbQvLGUeE3o8oa0Bdac=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21659-Chicken-Quesadillas-DDMFS-3314-4x3-Beauty-d3097a0276794bd98bfee10f731c819d.jpg" width="300" alt="Image of Chicken Quesadillas">
+  
+  <ul>
+    <li>Time: 45 minutes</li>
+    <li>Serves: 10 servings</li>
+  </ul>
 
+  <table>
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+      
+    <tr>
+      <td>
+       Skinless, boneless chicken breast, diced
+      </td>
+      <td>
+      1 lb
+      </td>
+      </tr>
+      
+      <tr>
+      <td>
+       Packet fajita seasoning
+      </td>
+      <td>
+      x1 (1.27 oz)
+      </td>
+        </tr>
+      
+      <tr>
+        <td>
+          Vegetable oil
+        </td>
+        <td>
+        1 tbsp
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          Green bell peppers, chopped
+        </td>
+        <td>
+        x2
+        </td>
+      </tr>
+      
+       <tr>
+        <td>
+          red bell peppers, chopped
+        </td>
+        <td>
+        x2
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          Onion, chopped
+        </td>
+        <td>
+        x1
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+          Flour tortillas
+        </td>
+        <td>
+        10 inches
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           Package shredded Cheddar cheese 
+        </td>
+        <td>
+        x1 (8 oz)
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           Package Shredded Monterey Jack Cheese
+        </td>
+        <td>
+        x1 (8 oz)
+        </td>
+      </tr>
+      
+      <tr>
+        <td>
+           Bacon Bits
+        </td>
+        <td>
+         1 tbsp
+        </td>
+      </tr>
+      </tbody>
+   </table>
+  
+  <br>
+  
+  <p><strong>Step 1:</strong> <br>
+  Gather ingredients, preheat the broiler, and lightly grease a baking sheet.
+  </p>
+  
+  <img src="https://www.allrecipes.com/thmb/eqlFVvTGjNWgdz9_fJCzU4j13I4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/21659-Chicken-Quesadillas-DDMFS-3246-4x3-Ingredients-1f92c676b22040b6ac1dcc05b608ea6f.jpg" width="300" alt="Image of tortilla ingredients.">
+  
+  <p><strong>Step 2:</strong> <br>
+    Toss chicken with fajita seasoning, then spread onto the prepared baking sheet. Place under the broiler and cook until chicken is cooked through and no longer pink in the center, about 5 minutes.</p>
+  
+  <p><strong>Step 3:</strong> <br>
+    Preheat the oven to 350 degrees F (175 degrees C).</p>
+  
+  <p><strong>Step 4:</strong> <br>
+    Heat oil in a large saucepan over medium heat. Stir in bell peppers, onion, and broiled chicken. Cook and stir until vegetables have softened, about 10 minutes.</p>
+  
+ <p><strong>Step 5:</strong> <br>
+  Layer half of each tortilla with chicken and vegetable mixture, Cheddar cheese, Monterey Jack cheese, and bacon bits.</p>
+  
+  <p><strong>Step 6:</strong> <br>
+  Fold tortillas in half and place onto a baking sheet.</p>
+  
+  <p><strong>Step 7:</strong> <br> 
+  Bake quesadillas in the preheated oven until cheeses have melted, about 10 minutes. Cut each quesadilla into wedges.</p>
+  
+  <p><strong>Step 8:</strong> <br>
+  Serve with sides of salsa and sour cream. Enjoy!</p>
+  
+ <p><em>Source: <a target="_blank" href="https://www.allrecipes.com/recipe/21659/chicken-quesadillas">https://www.allrecipes.com/recipe/21659/chicken-quesadillas</a></em></p>
 </body>
-
 </html>
